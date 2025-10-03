@@ -1,0 +1,1 @@
+p ("aaaaaa".."zzzzzz").lazy.select { |e| e.end_with?("f") }.take(3).force
